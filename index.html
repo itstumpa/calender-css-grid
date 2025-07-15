@@ -6,8 +6,13 @@
       
       <title>Calender-css-grid</title>
       <style>
+
+body{
+      background: #f2f2f2;
+}
+
 .calender{
-      margin-top: 20px;
+      margin: 0 30px 50px 30px;
       display: grid;
       grid-template-columns: repeat(7, 1fr);
       row-gap: 20px;
@@ -27,6 +32,7 @@
 /* box-shadow: 4px 4px 10px 2px rgba(0,0,0,0.2); */
 color: white;
 font-weight: bold;
+
       }
 
 
@@ -38,14 +44,25 @@ font-weight: bold;
 }
 
 .fi{
-      margin-top: 150px;
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      align-items: center;
+border-radius: 10px;      width: 600px;
+      margin: 140px auto;
+      box-shadow: 4px 4px 10px 2px rgba(0,0,0,0.2);
+      background: white;
+      /* display: flex; */
+      /* justify-content: center; */
+      /* flex-direction: column; */
+      /* text-align: center; */
+      /* align-items: center; */
 }
 
-
+.calender-parent{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      flex: 1;
+}
 
 
 .calender-parent h1{
@@ -113,3 +130,14 @@ display: flex;
       </section>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+ 
